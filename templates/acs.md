@@ -56,7 +56,7 @@
             </div>
             <div class="rightside">
                 <div style="padding-top:2%;padding-left:5%;height:90%">
-                    <iframe width="600" height="750" src="https://datastudio.google.
+                    <iframe width="650" height="750" src="https://datastudio.google.
 com/embed/reporting/0b057fb6-5e07-4643-92b5-6a25138fce6d/page/Bq6OB" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <a href="http://openknowledge.community/dashboards/">http://openknowledge.community/dashboards/</a>
                 </div>
