@@ -10,11 +10,26 @@
 
 <div class="reveal">
     <div class="slides">
-        <section class="titleslide" data-background="static_assets/background-title.png">
-            <div vertical-align="middle">
-                <h1>A Tale of Two Societies</h1>
-                <h2>Are UK and US Chemistry Publishing <br>Diverging on Open Access?</h2>
-            </div>
+        <section>
+            <section class="titleslide" data-background="static_assets/background-title.png">
+                <div vertical-align="middle">
+                    <h1>A Tale of Two Societies</h1>
+                    <h2>Are UK and US Chemistry Publishing <br>Diverging on Open Access?</h2>
+                </div>
+            </section>
+            <section class="twocolumn" data-background="static_assets/background-general.png">
+                <div class="leftside">
+                    <h1>Colophon</h1>
+                </div>
+                <div class="rightside">
+                    <ul>
+                        <li>Code and data on Github</li>
+                        <li>Presentation on Github</li>
+                        <li>Code and presentation at Zenodo</li>
+                        <li>DOI: <a href="https://doi.org/blablah">DOI Goes here</a></li>
+                    </ul>
+                </div>
+            </section>
         </section>
         <section class="sectiondivider" data-background="static_assets/background-section.png">
             <h1>Two societies</h1>
@@ -42,13 +57,76 @@
                 placing open knowledge at the heart of that narrative"
             </p>
         </section>
-        <section class="twocolumn" data-background="static_assets/background-general.png">
-            <div class="leftside">
-                <h1>Data</h1>
-            </div>
-            <div class="rightside">
-                <img src="static_assets/data.png">
-            </div>
+        <section>
+            <section class="twocolumn" data-background="static_assets/background-general.png">
+                <div class="leftside">
+                    <h1>The Data</h1>
+                </div>
+                <div class="rightside">
+                    <img src="static_assets/data.png">
+                </div>
+            </section>
+            <section class="twocolumn" data-background="static_assets/background-general.png">
+                <div class="leftside">
+                    <h1>The Data</h1>
+                </div>
+                <div class="rightside">
+                    <p>Data is derived from the following sources</p>
+                    <ul>
+                        <li>Crossref - weekly dump via Metadata Plus program</li>
+                        <li>Unpaywall - Open Access Status data via open data dump (October 2020)</li>
+                        <li>Microsoft Academic - Affiliation and authorship data via biweekly dump</li>
+                        <li>GRID - Information on organisations via regular data dump</li>
+                    </ul>
+                    <p>Data is integrated and processed via Observatory Platform, an open source workflow system
+                    developed within COKI to integrate data related to scholarly communications. The
+                        <a href="https://github.com/The-Academic-Observatory/observatory-platform">code is
+                    available on Github</a> including the template for
+                        <a href="https://github.com/The-Academic-Observatory/observatory-platform/blob/develop/observatory-dags/observatory/dags/database/sql/aggregate_unpaywall.sql.jinja2">
+                            SQL queries which generates the OA
+                            status</a> we use from the Unpaywall data. More detail on the OA categories is also
+                    provided on the slide below.</p>
+                    <p>For this analysis, publisher is defined by the text string in the Crossref metadata,
+                    affiliation is derived from the assignment by Microsoft Academic and field is the
+                        <a href="https://academic.microsoft.com/topics/185592680">Level Zero
+                            field "Chemistry" from Microsoft Academic</a> as provided in the data dump used. Some
+                    comparative data for "<a href="https://academic.microsoft.com/topics/192562407">Materials
+                            Science</a>" and "<a href="https://academic.microsoft.com/topics/86803240">Biology</a>"
+                        is presented in additional slides.</p>
+                </div>
+            </section>
+            <section class="twocolumn" data-background="static_assets/background-general.png">
+                <div class="leftside">
+                    <h1>Open Access Categories</h1>
+                </div>
+                <div class="rightside">
+                    <p>The following is derived from the template SQL query used to define the OA categories in
+                    Observatory Platform. For the most up to date information view the
+                        <a href="https://github.com/The-Academic-Observatory/observatory-platform/blob/develop/observatory-dags/observatory/dags/database/sql/aggregate_unpaywall.sql.jinja2">
+                            file on Github.</a></p>
+                    <h2>AGGREGATE UNPAYWALL QUERY TEMPLATE</h2>
+                    <p>This template query contains the SQL that directly interprets Unpaywall
+                    data to determine OA categories at the output level. This is therefore
+                    the canonical location for the precise definitions used for OA categories.
+                    Ideally this file should contain both the queries themselves and
+                    a description clear enough for a non-expert in SQL to understand how each
+                    category is defined.</p>
+                    <p>The current categories of Open Access described in this file are:</p>
+                    <ul>
+                        <li>is_oa: derived directly from Unpaywall</li>
+                        <li>hybrid: accessible at the publisher with a recognised license</li>
+                        <li>bronze: accessible at the publisher with no recognised license</li>
+                        <li>gold_just_doaj: an article in a journal that is in DOAJ</li>
+                        <li>gold: an article that is in a DOAJ journal OR is accessible at the publisher site with a 
+                        recognised license (hybrid)</li>
+                        <li>green: accessible at any site recognised as a repository (including preprints)</li>
+                        <li>green_only: accessible at a repository and not (in a DOAJ journal OR hybrid OR bronze)</li>
+                        <li>green_only_ignoring_bronze: accessible at a repository and not (in a DOAJ journal or 
+                        hybrid)</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
         </section>
         <section class="twocolumn" data-background="static_assets/background-general.png">
             <div class="leftside">

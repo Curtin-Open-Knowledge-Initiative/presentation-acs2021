@@ -18,13 +18,62 @@ endobj
 4 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (http://openknowledge.community/dashboards/)
->> /Border [ 0 0 0 ] /Rect [ 29.72146 467.2808 182.714 478.5308 ] /Subtype /Link /Type /Annot
+/S /URI /Type /Action /URI (https://doi.org/blablah)
+>> /Border [ 0 0 0 ] /Rect [ 58.10146 670.4483 108.539 681.6983 ] /Subtype /Link /Type /Annot
 >>
 endobj
 5 0 obj
 <<
-/Annots [ 4 0 R ] /Contents 37 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/The-Academic-Observatory/observatory-platform)
+>> /Border [ 0 0 0 ] /Rect [ 102.704 283.5746 192.749 294.8246 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/The-Academic-Observatory/observatory-platform/blob/develop/observatory-dags/observatory/dags/database/sql/aggregate_unpaywall.sql.jinja2)
+>> /Border [ 0 0 0 ] /Rect [ 278.624 283.5746 426.614 294.8246 ] /Subtype /Link /Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://academic.microsoft.com/topics/185592680)
+>> /Border [ 0 0 0 ] /Rect [ 29.34646 240.3246 206.3765 251.5746 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://academic.microsoft.com/topics/192562407)
+>> /Border [ 0 0 0 ] /Rect [ 422.4815 240.3246 481.664 251.5746 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://academic.microsoft.com/topics/86803240)
+>> /Border [ 0 0 0 ] /Rect [ 503.669 240.3246 528.2615 251.5746 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/The-Academic-Observatory/observatory-platform/blob/develop/observatory-dags/observatory/dags/database/sql/aggregate_unpaywall.sql.jinja2)
+>> /Border [ 0 0 0 ] /Rect [ 548.744 177.4683 560.414 188.7183 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/The-Academic-Observatory/observatory-platform/blob/develop/observatory-dags/observatory/dags/database/sql/aggregate_unpaywall.sql.jinja2)
+>> /Border [ 0 0 0 ] /Rect [ 29.34646 166.2183 63.95146 177.4683 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R ] /Contents 50 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 49 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 
   /Trans <<
@@ -32,9 +81,26 @@ endobj
 >> /Type /Page
 >>
 endobj
-6 0 obj
+13 0 obj
 <<
-/Contents 38 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/A <<
+/S /URI /Type /Action /URI (http://openknowledge.community/dashboards/)
+>> /Border [ 0 0 0 ] /Rect [ 29.72146 688.2146 182.714 699.4646 ] /Subtype /Link /Type /Annot
+>>
+endobj
+14 0 obj
+<<
+/Annots [ 13 0 R ] /Contents 51 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 49 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+15 0 obj
+<<
+/Contents 52 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 49 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 /Trans <<
 
@@ -42,226 +108,268 @@ endobj
   /Type /Page
 >>
 endobj
-7 0 obj
-<<
-/Outlines 9 0 R /PageMode /UseNone /Pages 36 0 R /Type /Catalog
->>
-endobj
-8 0 obj
-<<
-/Author () /CreationDate (D:20210411150314+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20210411150314+00'00') /Producer (xhtml2pdf <https://github.com/xhtml2pdf/xhtml2pdf/>) 
-  /Subject () /Title (A Tale of Two Societies) /Trapped /False
->>
-endobj
-9 0 obj
-<<
-/Count 26 /First 10 0 R /Last 35 0 R /Type /Outlines
->>
-endobj
-10 0 obj
-<<
-/Count -1 /Dest [ 5 0 R /Fit ] /First 11 0 R /Last 11 0 R /Next 12 0 R /Parent 9 0 R 
-  /Title (A Tale of Two Societies)
->>
-endobj
-11 0 obj
-<<
-/Dest [ 5 0 R /Fit ] /Parent 10 0 R /Title (Are UK and US Chemistry Publishing Diverging on Open Access?)
->>
-endobj
-12 0 obj
-<<
-/Count -1 /Dest [ 5 0 R /Fit ] /First 13 0 R /Last 13 0 R /Next 14 0 R /Parent 9 0 R 
-  /Prev 10 0 R /Title (Two societies)
->>
-endobj
-13 0 obj
-<<
-/Dest [ 5 0 R /Fit ] /Parent 12 0 R /Title (...both alike in dignity)
->>
-endobj
-14 0 obj
-<<
-/Dest [ 5 0 R /Fit ] /Next 15 0 R /Parent 9 0 R /Prev 12 0 R /Title (In FAIR[?] chemistry where we lay our scene)
->>
-endobj
-15 0 obj
-<<
-/Dest [ 5 0 R /Fit ] /Next 16 0 R /Parent 9 0 R /Prev 14 0 R /Title (Different national policy environments on OA 2010-20)
->>
-endobj
 16 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 17 0 R /Parent 9 0 R /Prev 15 0 R /Title (...and different publisher responses)
+/Outlines 18 0 R /PageMode /UseNone /Pages 49 0 R /Type /Catalog
 >>
 endobj
 17 0 obj
 <<
-/Count -1 /Dest [ 5 0 R /Fit ] /First 18 0 R /Last 18 0 R /Next 19 0 R /Parent 9 0 R 
-  /Prev 16 0 R /Title (A quick segue on the data)
+/Author () /CreationDate (D:20210411160325+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20210411160325+00'00') /Producer (xhtml2pdf <https://github.com/xhtml2pdf/xhtml2pdf/>) 
+  /Subject () /Title (A Tale of Two Societies) /Trapped /False
 >>
 endobj
 18 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Parent 17 0 R /Title (The Curtin Open Knowledge Initiative)
+/Count 30 /First 19 0 R /Last 48 0 R /Type /Outlines
 >>
 endobj
 19 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 20 0 R /Parent 9 0 R /Prev 17 0 R /Title (Data)
+/Count -1 /Dest [ 12 0 R /Fit ] /First 20 0 R /Last 20 0 R /Next 21 0 R /Parent 18 0 R 
+  /Title (A Tale of Two Societies)
 >>
 endobj
 20 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 21 0 R /Parent 9 0 R /Prev 19 0 R /Title (Information)
+/Dest [ 12 0 R /Fit ] /Parent 19 0 R /Title (Are UK and US Chemistry Publishing Diverging on Open Access?)
 >>
 endobj
 21 0 obj
 <<
-/Count -1 /Dest [ 5 0 R /Fit ] /First 22 0 R /Last 22 0 R /Next 23 0 R /Parent 9 0 R 
-  /Prev 20 0 R /Title (What about publishers?)
+/Dest [ 12 0 R /Fit ] /Next 22 0 R /Parent 18 0 R /Prev 19 0 R /Title (Colophon)
 >>
 endobj
 22 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Parent 21 0 R /Title (What can we tell about policyand culture change?)
+/Count -1 /Dest [ 12 0 R /Fit ] /First 23 0 R /Last 23 0 R /Next 24 0 R /Parent 18 0 R 
+  /Prev 21 0 R /Title (Two societies)
 >>
 endobj
 23 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 24 0 R /Parent 9 0 R /Prev 21 0 R /Title (Publisher choice in UK)
+/Dest [ 12 0 R /Fit ] /Parent 22 0 R /Title (...both alike in dignity)
 >>
 endobj
 24 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 25 0 R /Parent 9 0 R /Prev 23 0 R /Title (Publisher choice in UK)
+/Dest [ 12 0 R /Fit ] /Next 25 0 R /Parent 18 0 R /Prev 22 0 R /Title (In FAIR[?] chemistry where we lay our scene)
 >>
 endobj
 25 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 26 0 R /Parent 9 0 R /Prev 24 0 R /Title (Publisher choice by country)
+/Dest [ 12 0 R /Fit ] /Next 26 0 R /Parent 18 0 R /Prev 24 0 R /Title (Different national policy environments on OA 2010-20)
 >>
 endobj
 26 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 27 0 R /Parent 9 0 R /Prev 25 0 R /Title (Different patterns with publisher OA?)
+/Dest [ 12 0 R /Fit ] /Next 27 0 R /Parent 18 0 R /Prev 25 0 R /Title (...and different publisher responses)
 >>
 endobj
 27 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 28 0 R /Parent 9 0 R /Prev 26 0 R /Title (Publisher percent of Chemistry by institution)
+/Count -1 /Dest [ 12 0 R /Fit ] /First 28 0 R /Last 28 0 R /Next 29 0 R /Parent 18 0 R 
+  /Prev 26 0 R /Title (A quick segue on the data)
 >>
 endobj
 28 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 29 0 R /Parent 9 0 R /Prev 27 0 R /Title (Publisher percent of OA publishing in chemistry by institution)
+/Dest [ 12 0 R /Fit ] /Parent 27 0 R /Title (The Curtin Open Knowledge Initiative)
 >>
 endobj
 29 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 30 0 R /Parent 9 0 R /Prev 28 0 R /Title (Parallel effects at the country level)
+/Dest [ 12 0 R /Fit ] /Next 30 0 R /Parent 18 0 R /Prev 27 0 R /Title (The Data)
 >>
 endobj
 30 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 31 0 R /Parent 9 0 R /Prev 29 0 R /Title (Conclusions)
+/Dest [ 12 0 R /Fit ] /Next 31 0 R /Parent 18 0 R /Prev 29 0 R /Title (The Data)
 >>
 endobj
 31 0 obj
 <<
-/Dest [ 5 0 R /Fit ] /Next 32 0 R /Parent 9 0 R /Prev 30 0 R /Title (Conclusions)
+/Count -1 /Dest [ 12 0 R /Fit ] /First 32 0 R /Last 32 0 R /Next 33 0 R /Parent 18 0 R 
+  /Prev 30 0 R /Title (Open Access Categories)
 >>
 endobj
 32 0 obj
 <<
-/Dest [ 6 0 R /Fit ] /Next 33 0 R /Parent 9 0 R /Prev 31 0 R /Title (Chemistry has been following, not leading...)
+/Dest [ 12 0 R /Fit ] /Parent 31 0 R /Title (AGGREGATE UNPAYWALL QUERY TEMPLATE)
 >>
 endobj
 33 0 obj
 <<
-/Dest [ 6 0 R /Fit ] /Next 34 0 R /Parent 9 0 R /Prev 32 0 R /Title (Conclusions)
+/Dest [ 14 0 R /Fit ] /Next 34 0 R /Parent 18 0 R /Prev 31 0 R /Title (Information)
 >>
 endobj
 34 0 obj
 <<
-/Dest [ 6 0 R /Fit ] /Next 35 0 R /Parent 9 0 R /Prev 33 0 R /Title (...but maybe that is starting to change)
+/Count -1 /Dest [ 14 0 R /Fit ] /First 35 0 R /Last 35 0 R /Next 36 0 R /Parent 18 0 R 
+  /Prev 33 0 R /Title (What about publishers?)
 >>
 endobj
 35 0 obj
 <<
-/Dest [ 6 0 R /Fit ] /Parent 9 0 R /Prev 34 0 R /Title (COKI Team)
+/Dest [ 14 0 R /Fit ] /Parent 34 0 R /Title (What can we tell about policyand culture change?)
 >>
 endobj
 36 0 obj
 <<
-/Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages
+/Dest [ 14 0 R /Fit ] /Next 37 0 R /Parent 18 0 R /Prev 34 0 R /Title (Publisher choice in UK)
 >>
 endobj
 37 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1624
+/Dest [ 14 0 R /Fit ] /Next 38 0 R /Parent 18 0 R /Prev 36 0 R /Title (Publisher choice in UK)
 >>
-stream
-GauHLgMZ%0&:Ml+%/),SChQ[iok!)oRpqLKF0U?]1ju#Cg1Dq#>*4^$^[I9T/_Q,W1f4fD&0t+6F*M<ZN$rrG8)=2m$1Q[d"r@uP&*#+cOG#=e#/?3p^7X3=O)FCZ;\Fb'(djHT,`@).CC`$r389rH=V@NZ$EFhf0\sF#HA)-G(Vk8%1a5dhrQ)]dE8fPe6(148rLWneB5fnb0e58_.?%=87Of50#d-D/pg4m<@KG=FJ2bfiN$=E3an%483/YQU@IB0t!VQWT`G(Pr^]@"oLTgrP&O5cWiiP5r>lp2ngl:6>cBgkeH4AKNU_J,-jNKp!fMB8<#@>aG'IX8h'pgVuF0>3!cI)Foah0IoHP7t'qSgs2Pf1ZUL&@H[,aDsjNOf`t#am(s#?H]c#9fcP1F^PZ/'KsZ8E'fdF8/bP`UN3\hk0q"I&DkPS>0Ck*(mXDe^U75/pV*n@71_jll5d;0qBL`Bg=EuP[l(>WYG7I\9njqP"WHbSVW'ZHdk.K^!8@ZKHtQ%p)O7X`9(U8$`.SOP1NNO>q)bb.m$?ZP%7(?b+$qqmu>C)T_Y\JQ<lB1:b]dJ"-!Bq`SU4I^.erp&_;5+)mQAOQVsqX?HbBV`CpuER>9(VN^?@Nj@Dk[>d_4-JXk@h**u7GXAV1X"R1[lbd!R&!=K?+JO="dg>$tBc^@2VQ=t,7NTCY2R=Ri]>-3KuB6[P\S#F?Z)jd"[%ib$Y]_(h0<$f^nFgn.tG,-h$%-F)1`\oaL!m0`]&bVhR;n+^7bPKQa(C2We,=99mJpXh53`Yk$'r0($@S279LH834I.eF(W:hV8C2^W\j$_lm9JDIq:5dFG=b_-::R*V[*)0$fH;ogP`@s6JqK4Krin.stjD)5AD#5+b9[>)DeV,'S&9ks7$8r0O[Ji8*?WOaT-LC#3GP`"`!V*K@$@Zc3k2>Aqg5^NA`,.<bq_HnSntn5Qp?&e+F:Tg\8.bEc!8"jNQ-Y`:Saj8&m#3\j8FR,OrKSeEN1`RbG@j(4S?*l8NC8EM'rmm(')M(]`%#@-YGHu=5kDTH1KVK>>4nY@KMhd#CX6q<leI*4VRN1VODQ/K&Z0hF3VWK.@(O+JKFbknc)l0\S/$2Gb%PICm=FsqaBc-@PpJ)7UQ0Bell.U`OZSg*JX;on`u0`NrXHrZP'P_oUpIBpVs#>"[/VoZJ"Yc9PD)N,g<U1FlQeN[gp%eJ)?-u`Kr4u6ScR@+'K7#N\f]q?28j>.iWRkI46\Q=Mmg""%F?\s2R9QDd*@*K9=d3dJ<[0/Qjh]Ga6i*G>ofMt]!?qaVc`5V:Zkfc@R1m.(;M!=;K>gjf[,SDldi$kpCRV0>!3/'[=DS)TAaJLdC0MU#B#6/Vm<p-R%TY11C[9P@7V]f(S*dU`$>b<NW.8kShh?rR,-(Taa;q>9l#Du%+>Ck.Zmrm6XWm`glcb]c8;OlXT0HJ5+&/5<o]if:iG)G>@eE!MfH3k*.0tab>;g^+*Qc1#\,\9oXI-CoNJCJ)q<nd*lsk:_lhsi/U>`UbPg[!Q,W^B6P4aP`+kh8OENn*bW&4lW,^%Fcr>`Ogm?9S<shGj<Nl-m4&dCf\`R/VURg,'hG)IsD;fr[=1KGse]/8FErm`h!P.f+RK~>endstream
 endobj
 38 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 974
+/Dest [ 14 0 R /Fit ] /Next 39 0 R /Parent 18 0 R /Prev 37 0 R /Title (Publisher choice by country)
+>>
+endobj
+39 0 obj
+<<
+/Dest [ 14 0 R /Fit ] /Next 40 0 R /Parent 18 0 R /Prev 38 0 R /Title (Different patterns with publisher OA?)
+>>
+endobj
+40 0 obj
+<<
+/Dest [ 14 0 R /Fit ] /Next 41 0 R /Parent 18 0 R /Prev 39 0 R /Title (Publisher percent of Chemistry by institution)
+>>
+endobj
+41 0 obj
+<<
+/Dest [ 14 0 R /Fit ] /Next 42 0 R /Parent 18 0 R /Prev 40 0 R /Title (Publisher percent of OA publishing in chemistry by institution)
+>>
+endobj
+42 0 obj
+<<
+/Dest [ 14 0 R /Fit ] /Next 43 0 R /Parent 18 0 R /Prev 41 0 R /Title (Parallel effects at the country level)
+>>
+endobj
+43 0 obj
+<<
+/Dest [ 14 0 R /Fit ] /Next 44 0 R /Parent 18 0 R /Prev 42 0 R /Title (Conclusions)
+>>
+endobj
+44 0 obj
+<<
+/Dest [ 14 0 R /Fit ] /Next 45 0 R /Parent 18 0 R /Prev 43 0 R /Title (Conclusions)
+>>
+endobj
+45 0 obj
+<<
+/Dest [ 14 0 R /Fit ] /Next 46 0 R /Parent 18 0 R /Prev 44 0 R /Title (Chemistry has been following, not leading...)
+>>
+endobj
+46 0 obj
+<<
+/Dest [ 14 0 R /Fit ] /Next 47 0 R /Parent 18 0 R /Prev 45 0 R /Title (Conclusions)
+>>
+endobj
+47 0 obj
+<<
+/Dest [ 14 0 R /Fit ] /Next 48 0 R /Parent 18 0 R /Prev 46 0 R /Title (...but maybe that is starting to change)
+>>
+endobj
+48 0 obj
+<<
+/Dest [ 14 0 R /Fit ] /Parent 18 0 R /Prev 47 0 R /Title (COKI Team)
+>>
+endobj
+49 0 obj
+<<
+/Count 3 /Kids [ 12 0 R 14 0 R 15 0 R ] /Type /Pages
+>>
+endobj
+50 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2465
 >>
 stream
-Gb!;dd;IYl'Rf-pmUJ>dDOeX:G\gM[44[EY8:B`\0nsouG3_+Tr;CLMl`(:A[h[>c#S`*2kP4o/F0@"qGgXdJVuSGj3#bbg+lm^;0o7(R%[VJ0WAhg5h2Vt$'#dG45h]kHT7do.qr0>ae*T)iT12tN_5`9?9V:LB!MNp97$(J8).=Bl=Zb$a0Pm@M=j#IoK?[sDE&8tRV.sYp;",C#;JMSgZ8=).(FPl8K2V7XINX:`6iIbi0.lJZ#5*3Op*:s_IM<eB]@!?hC1VMS%4r&\&E:rcU#B`\)[@*b:F3N&4&@faNa%93$-n&L\6_^EfJFiSA(e\"oQG<c\`B#/YU%C_9XF\k:4oL9oG+TpA-q"`U?!DlPe;_q[BgK)UkM*5\d%W6Sfp?rBN(A=g)DC,a<]FLF#UU0Y?O^!(?73T]ap,EBUWg(+ekO_rt+&+TC1X`.qsut+*(X*m7incDoUj&-2Y@fCUc+Q/I\rY%rFuHm9XHrgaNR(WiY(ifF[XhpB!E))LX[+$6G;:/K^#3WkmcZbo4j4MqTaT,>Tto0hYZe8EuJFY41?"!UZV;F&h1rf#ptFO"fBMJ7ZQd)rPcY1Mh/;hS@nbDqAL#haJ\`A1b>,"l.Dd8t_M3[+2T/n`Ci>?'O?1$`kE#@-3i%.]sM`?LNc678XkTGUEi.b*MUXS1/mg""Vc>IRuN.Y25C?G=Eue_PM]rPeZ+]0^,7gT'Mf0/%?t:*n]=_(`F)PY)'jkZ68D+lHcTJ#*+1djj!mHQFsa/5$@Gp&e\I8g*tX`D=MPEa2YeC=E23h.,0Tq`mE#hb1')G?R*N@m%PmUE[le$E/!OI(pW_1)eGR>U/l:@'-g.+p\(4=A6ni_DnNsdk,Wg8VY349LhYL1dH9*,^n=NP5<HP$\oU-dV[';K05$7uO,AG&"J[g;U@b\G/u2KN_B%c=mGFI&XHP#%Il$DM>YFsS,DMP,a$&Yb##OR[;?~>endstream
+Gb!;dgMZ%0&:Ml+%.`Hp)ci\Nf"Mi9Oq!";R[\q=gFWb9U+J:/k`V*7s*]Ze,%&nZ[+hD47?AXXB[2<EcCCR9%fX!3D__LkBa?r9F2=\,*/!Pj+,3j95!8]-kRN*uAi8rhcO]scU,X9886u/]g1qL"RO9A@]KY`#iWqJd>?e6t>j=<j%&`"f,j;is0SY%$8'O-!*sKZu@t2u2H35"iS:_g!E$=1+-A%S9lgJ6V-OdaK%c1=nn+O7/"Jd,.qq^Uo6/Y8sk3B\jLT*e6YTH9a@?:&/lXB1"9W1IjrDagYhZGB,G^P%jN),-[eIlc#;(cr;MMZK3pte(GF06kb#\3rp1L@j>8\!>9G)hSP,^0%@CELEmbiLC>7;'@TT?t[Dn+1>4S&f-s\74A4&SjEcm^2]^^?BueUW>KM*g+P69HY:j\h:fhXblnL%CP#44j9/FP=o'#baD^l193lMUCLe#3:r\uqGqU\Mis>,,Q@V6UPM=qn57N_ULtnNapXW[cI%D2$3%[aYBR^q3%Bk[aE8%,5;;1\7=lk(9NP#1Gkg97S_[Pb"`(jOEq9\l,hJ,t`P3[*],,]8$%gcI/#J`ucYY#&fuactT(\`kJo/AaqejcgKb-R?ZHRj\ie`:9+;L),Pfp4I#(;C/*U%c%Pf(ZGh@2++J,Ab[8D68:0Q;OGLR]q^<XNrcMpD+5oFWa&rJ#JB`aeYI.&!l1cZ5Dp>U2u#`EXfo9_"[^D0Z-2ELdd.FH1o]aZ4A9g+a^DCp.S@RFMq&.mQk!a[12A[NG7#n*fGEQW%sT<?c\ibpO5bkq+]/]5;1N,>+opmn`ApPi*,/3iu@1)I<'NOGfX,'+U@2M#oCfmu1u<O%D_M:ti'ak&dH^iu>))M*q=O%Ag./g4\"Xlm3N"cu5+]>tTfmL]:kZWsYUc[4(DUT'*mYZ7=,9WTO#h!RI4^hA_jD/?sNO,iu""$F=*W:;BhCUq/E[0VrT[N]Um2]%Fs6=0I'o\n@W93\U1te3<rEs3%SO/K>u2It]H6M#gW!'cpfk@jS&HR)^u.jheeu,Jbb`=iS?OnDaEGI]ZdN8Z`^L_[6#orff&ZXemnA$O54qA9M(bbq"cW;GIpqG"r9WSO:HlQ)<THR'Gb)+^pnB&$>>O+rZYQdp[9,3Pp6Nl2'&E8P2"[mR2%cqY4@Z/5]%9h]?I67=qb+itBhY;H--mVJ@k,Md/*F#52q8Q'kT4'=1]m7Ucg;SWi-Q,lIA/FE)eUL2"1L`_oOc!E?'*.tk@'[EXOp\WAVT6IV:^A`j+5L'K/A($!T=/+SK4+H<um"?Z;3jb=i!5J$R49O9]O+o0N!F"LQB1lSlom\+J.>K5jq[O=b.FAsH,f7U4_AW!*R7W1bbX#WO5YXIngV)a&b\?<!gRb(ske^GA7*qW?sI#=J&c?!6P_EsJ)C897IpQn?k[&3+%;EVF#nVp:!M'nY!_b2YFdj]$mUcr)dVWhrWQAHL)0`j7G,%m[@Dd?#;@R\I3?DXM8REgI\cAZIR;/0lBGdt@Pn]@m5>%Ai!@"O#fEE_,cU<qMX_7!(r/5p8sC4@c51Vj^6QE0hjQXW;nq6RBG4Y]\qWF_EQ.+cn;`*B+*T4XA6nIpj8[0tCtfT^\&>Q7IR3ZEm7,(_:U$a3%l\D@Epr;['qG8m[gMK56@.,A-d'1M9%/@+/)KaBPL`.;d)Kmp?do2qhE('WiCZu"+YGDTt4$p$eIlF)sRS&UGT?fU3QC56M_j0tE]c+Z8Qh%\ICn3")c4DV4+_VUQW)u,[Kfdo7'mtHg<6_A8.NC'LD\.PdPWU?mEc]l4tS8uF9R^$%?f*eesi-;:>Xq?mj+;j&\&\L[0QF13AeFpA#&i,f;jX4h4.faq@D-H<O92j4Hf,!AW1V2C%+RX_u%BqHl:>8,&lt,Al)BTfbG?%u-=q/,A.tQjrk<L!=.,<>^TBDEbfmCPj^G0`a%V7NQd.FqbT]O^:&m\\^)1o&-DAV%B4.?Y0\r&LAV8as+AiDGkM_u5'(OXW]dMdsPWNNb>D$o*=jTU;Y\sdo4gOm>]`VoVO@!E0B5Mlr7r%bdnK"K(pq[YAC^V7Cu(L8&A&RdM:p,fp>k5QaL%Lp7_#@8Kq+q&4&7GT@$#4-l4$H82AQ)\Qu$;8.`>KsDW#elfIN,7LK\MK=I3NGcn%7M0i+ETuGaO8^Cm@&\CdO9j_4o/F7qSBJ,=b>3<JR.!H;:Nb96I[R=0MLC[jlkX.DC#KaTJK^o/N7*i]mVcM53mpQSOb?ed>UhbQrt5gS>.q&KrcVh2:p.B4`pRSs#oDB2!&*Y-_W#o^//S&7N#qkc;9BTmOd&%=D(Hc1%D#6)#9>!!(.5fV<eBGg?H`L`p?diA+\QGT(C)=J(seiVba$S;#a-X(nptkltoC`D,".#Coa9$]Fl2JbHE`/flElVqA,GeK.r1r.IWNc1F!!hfcZCjSF/(4\O^t=GMf14d6Dn?&ZG~>endstream
+endobj
+51 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1795
+>>
+stream
+Gb!;dgMYb*&:Ml+n1e3*N(De%Z:NfbFPSjE`'n#A"LLSO9PDihW>OKqh]_*>dQ3-2ejU%cL+H3ORDUg:LE\-s&+RER%&)8TFT*XRKVH:"OU+Hjn.,CO3;IrB"^ePR9f!bY8X,l!#VaN@&FOC@-KpCFB4*d+Gs[Cp,Y!ESImT$&pP@VL+8AVhH2>DBOJM+K1q7U/E#OC_`b<bkSe)=.2NMPN_A'+$\$M&DXo@@a&1\**N#5-HQpl2@dC^Ml@A^\($Xor(BiOUh:R!QG6rF_()=DJQIWJ>g4=sXHa[rfQ#LUq]1XWM@]rR.+/N(-BOq_Aj'a9[Ei"4`/\l)3'?,2j^mc9k\MgmdoP(kqZ505cb*c]R7T6UJr`*?W\oD>n+K]S3/fFE>'iTYGEW^Jjpd@&K0_!r"/Xl<T6R>+Be)hM8;0]SRiCUg%<,qpTD+mW%)$(Ad-8gnJH6!'9lA(gEph.e7&?ZFXDLT(mnQh;Wkct9%)GLVknB@%D`7p41s[,$Urd\)lImHtJ2R7:JUB;]F$]\N[A":$@q4M`YqdkIQM@j9hM?p_aRoK:&OcH)F]lE5hDq?7mXeQ>m/Aqa8kYpUF.1eYq,cu983T+OcV'uJ3n2$:#]3`0jXi$<7i*'T8O*(I#*8TaP`RLBF3mue;*_pmE9X7LBqkNZC<L#h?Kj$M(([1[Y.?8=;WBi^M]gkWBG^/M7UKL:ncWU_.=%\Hu.@3](4D.bQ;G?tn9B/Fus(L:do;$n_\8!!/f&-kcBV]Kc4ZcE5bnE)D^h$(9<#.T3?a/*$.f?gpk*jpWKlE[:cV6)8.MCDI;hDqAk9/''MT)en/qJ\1>cuND"s4He!1<uP:`7Zf(15%[P<uH@0PbTNSFKKAeljPbE3/eB?Df<R=bU]h]ZclTZ.FVD'XY%/tkcE;_Kd)Z@5>eJ&?53s_*i%SVc\)=V*SWmu.r>0SEZRXUNbInq-/8QOH*Lu:R5Y\"n\*>3$qE$8][U*'UuW/.cr"5rg=EIgN[0,4Z7G,m%rdd#.Gm>qFAFujCk,:0)-T@H9FbEa^BIf.i@Ne`e\9cg%R@.("lX74.uLT^Nb8r;F_q"W:O1h#%WG?6m(+j1i'(Xm+dds(M_?YV"8"O4CK7r6nEnYN90^9"8@uG9a^AA">i52OeVi9YB3$,UaM(jXh5iS4<pP+:_/3@$B;LNGZUuj41Lhq"%=9l/+PbBhn=&)?IgNKmm;jlX*H8';s'm.1^e%4.P;dY&##qnf^2*?t:Vhf-1AVOI2.mH4@W">%XbN'<gDD(M_mkGR\L=!:_<>LV$V++,S/G.c?6GVEM98OCE_HAAG.V%d^1XQ!N4*3Ng`W-Z)@`gk:hQA_\0Fdr(aD$fqu->jf5`Zk6#G)i@0Yka*&\9#CrXXF>DE.Ub4%i(6n]RcL4_*"3!-oi3(TpJ_uksskEar9b\:qH[^3B,3,H$Q0XXuOhS-]cD$mc1h'n<3:&3I*JEAg%%W>pe#/DP0#iYqqV:5mO+trnleYOVj_&.A+/g*+a&+=2GU$Rt"KVopKY5he0&C&jJ[!f]%X=IF]<NKNWo?OSVAd-$0NCiTErtZ&'Rrnp)_/\quB^I8L_9R'm^Wud!PUS"`0%50JNM*=m"("ZdQ?pu)@mE;AaW;\tMnX)oYo0a<o6oOig"jVZR9PjLfReNQ6RR2`Q(;TE](=@I1%^UgMma/`N2'08RV08p,;Al^L"`$IlE&;71seFR2<^Z^f22B+Dosi%\jmUFeGSZU"^W"h8tW/<Y3`O%XMaf]PB\3^+DQ$PH1`bO?CdaQrrJsZ48&~>endstream
+endobj
+52 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 625
+>>
+stream
+Gb!<L?#Q2d'Sc)J/'_]bD%m)lE1(9'fgdnG6/#%O4EDoW^eTklQ%)#^FB,-aMRJs1AANt:3:GmKhI?W$)s$c0%D[`=/i*PSJ@l!tGnK+E@@>GZB5@7'qqXQtKi&i/OSHO+Ug`K$4^09&St'CTk(b4TE&Vi&-4dAKQc'U/"pjbSWXEg7"`BY";>oN/2fOn%WfZKM8u%k7OT1"3D6IN!e?U,r`)u<Pk]'&/3dTrcn7aQ=6,TH*(Y=>FUF<$R&G*guKM)55h-c/rL^Lk]V%a3j_P/heWmTUAr+%/R;soU&Y-nS^-*4\4.qp<<UR>i[q:!O[<`E8S4n9='P.uX'6#Pd;KXn?>E)j\S$d!0dWnU:;_s$[t;iaYV#3Mp>GR*+hG91n/'kH#9hjoQE?i<8Q7G#kFi3!,f692]pVb\)Dle:m.+i,PV>%p'V:hg(?h<[6#XCT9VSYBs[;H2EcYgVpah+FGV)4@3J2u!K/i377h88,7IND#I,3`/K(_+%q:bL-&[*764l\Y"-l&O+@Nd4LAj%>-*u2Xe/-73ur$G<,gHhU"djB2*PPF@,FBJ&*F%;h'\Uqnd3(7Oj(nl`1B;BO8]UBYQd&oa24Cg1R5U%!Ojefl'M=r<N~>endstream
 endobj
 xref
-0 39
+0 53
 0000000000 65535 f 
 0000000073 00000 n 
 0000000114 00000 n 
 0000000221 00000 n 
 0000000333 00000 n 
-0000000526 00000 n 
-0000000749 00000 n 
-0000000954 00000 n 
-0000001039 00000 n 
-0000001314 00000 n 
-0000001388 00000 n 
-0000001531 00000 n 
-0000001659 00000 n 
-0000001805 00000 n 
-0000001897 00000 n 
-0000002033 00000 n 
-0000002178 00000 n 
-0000002307 00000 n 
-0000002465 00000 n 
-0000002569 00000 n 
-0000002666 00000 n 
-0000002770 00000 n 
-0000002925 00000 n 
-0000003041 00000 n 
-0000003156 00000 n 
-0000003271 00000 n 
-0000003391 00000 n 
-0000003521 00000 n 
-0000003659 00000 n 
-0000003814 00000 n 
-0000003944 00000 n 
-0000004048 00000 n 
-0000004152 00000 n 
-0000004289 00000 n 
-0000004393 00000 n 
-0000004525 00000 n 
-0000004614 00000 n 
-0000004680 00000 n 
-0000006396 00000 n 
+0000000507 00000 n 
+0000000721 00000 n 
+0000001026 00000 n 
+0000001225 00000 n 
+0000001423 00000 n 
+0000001620 00000 n 
+0000001926 00000 n 
+0000002234 00000 n 
+0000002502 00000 n 
+0000002696 00000 n 
+0000002921 00000 n 
+0000003127 00000 n 
+0000003214 00000 n 
+0000003490 00000 n 
+0000003565 00000 n 
+0000003710 00000 n 
+0000003839 00000 n 
+0000003942 00000 n 
+0000004090 00000 n 
+0000004183 00000 n 
+0000004321 00000 n 
+0000004468 00000 n 
+0000004599 00000 n 
+0000004759 00000 n 
+0000004864 00000 n 
+0000004967 00000 n 
+0000005070 00000 n 
+0000005227 00000 n 
+0000005330 00000 n 
+0000005436 00000 n 
+0000005593 00000 n 
+0000005710 00000 n 
+0000005827 00000 n 
+0000005944 00000 n 
+0000006066 00000 n 
+0000006198 00000 n 
+0000006338 00000 n 
+0000006495 00000 n 
+0000006627 00000 n 
+0000006733 00000 n 
+0000006839 00000 n 
+0000006978 00000 n 
+0000007084 00000 n 
+0000007218 00000 n 
+0000007309 00000 n 
+0000007384 00000 n 
+0000009941 00000 n 
+0000011828 00000 n 
 trailer
 <<
 /ID 
-[<f5f393cdfe476e62f068a38dc93dfa9e><f5f393cdfe476e62f068a38dc93dfa9e>]
+[<0da581e1c6fd29e71cb8ccb577a80fcb><0da581e1c6fd29e71cb8ccb577a80fcb>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
-/Info 8 0 R
-/Root 7 0 R
-/Size 39
+/Info 17 0 R
+/Root 16 0 R
+/Size 53
 >>
 startxref
-7461
+12544
 %%EOF
