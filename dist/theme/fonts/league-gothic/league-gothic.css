@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:82d18a3cfbde189aefc749cc31d314681e7a41f064141d33ec6687f6fc57223d
-size 317
+@font-face {
+    font-family: 'League Gothic';
+    src: url('./league-gothic.eot');
+    src: url('./league-gothic.eot?#iefix') format('embedded-opentype'),
+         url('./league-gothic.woff') format('woff'),
+         url('./league-gothic.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}

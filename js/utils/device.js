@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:390cced56c3eaf3a4319eb2721573d50385bd5d97a1984fe17d385a2a6544203
-size 677
+const UA = navigator.userAgent;
+const testElement = document.createElement( 'div' );
+
+export const isMobile = /(iphone|ipod|ipad|android)/gi.test( UA ) ||
+						( navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1 ); // iPadOS
+
+export const isChrome = /chrome/i.test( UA ) && !/edge/i.test( UA );
+
+export const isAndroid = /android/gi.test( UA );
+
+// Flags if we should use zoom instead of transform to scale
+// up slides. Zoom produces crisper results but has a lot of
+// xbrowser quirks so we only use it in whitelisted browsers.
+export const supportsZoom = 'zoom' in testElement.style && !isMobile &&
+				( isChrome || /Version\/[\d\.]+.*Safari/.test( UA ) );

@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:103d7431d1a7de5570a54e4b73731317049dac9df6b6aa6cbca191e90cbb9ee1
-size 719
+{
+  "cache_bucket_name": "cache",
+  "output_bucket_name": "precipy",
+  "logfile": "logs/presentation.log",
+  "loglevel": "DEBUG",
+  "constants": {
+    "FOCUS_YEAR": 2019,
+    "YEAR_RANGE": [
+      1989,
+      2021
+    ],
+    "PROJECT_ID": "academic-observatory",
+    "CACHE_FILENAME": "cache.h5"
+  },
+  "analytics": [
+    ["get_country_data", {}],
+    ["process_country_data", {"depends": ["get_country_data"]}],
+    ["get_institution_data", {}],
+    ["process_institution_data", {"depends": ["get_institution_data"]}],
+    ["pres_figures", {"depends": ["process_institution_data", "process_country_data"]}]
+  ],
+  "templates": [
+    "acs.md"
+  ],
+  "filters": [
+    ["markdown", "html"],
+    ["xhtml2pdf", "pdf"]
+  ]
+}

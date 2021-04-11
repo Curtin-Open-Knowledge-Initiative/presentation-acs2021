@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b43f9d4778e1820ef415b70fc4e189de46d05e01eae2b4f6359079d7c1d0bf92
-size 572
+
+export const SLIDES_SELECTOR = '.slides section';
+export const HORIZONTAL_SLIDES_SELECTOR = '.slides>section';
+export const VERTICAL_SLIDES_SELECTOR = '.slides>section.present>section';
+
+// Methods that may not be invoked via the postMessage API
+export const POST_MESSAGE_METHOD_BLACKLIST = /registerPlugin|registerKeyboardShortcut|addKeyBinding|addEventListener/;
+
+// Regex for retrieving the fragment style from a class attribute
+export const FRAGMENT_STYLE_REGEX = /fade-(down|up|right|left|out|in-then-out|in-then-semi-out)|semi-fade-out|current-visible|shrink|grow/;

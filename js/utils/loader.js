@@ -1,3 +1,46 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5ad20da00da303f338ab091d6d4768b329c86b2e7bf2da2d7a31e8aeb57df5ab
-size 1128
+/**
+ * Loads a JavaScript file from the given URL and executes it.
+ *
+ * @param {string} url Address of the .js file to load
+ * @param {function} callback Method to invoke when the script
+ * has loaded and executed
+ */
+export const loadScript = ( url, callback ) => {
+
+	const script = document.createElement( 'script' );
+	script.type = 'text/javascript';
+	script.async = false;
+	script.defer = false;
+	script.src = url;
+
+	if( typeof callback === 'function' ) {
+
+		// Success callback
+		script.onload = script.onreadystatechange = event => {
+			if( event.type === 'load' || /loaded|complete/.test( script.readyState ) ) {
+
+				// Kill event listeners
+				script.onload = script.onreadystatechange = script.onerror = null;
+
+				callback();
+
+			}
+		};
+
+		// Error callback
+		script.onerror = err => {
+
+			// Kill event listeners
+			script.onload = script.onreadystatechange = script.onerror = null;
+
+			callback( new Error( 'Failed loading script: ' + script.src + '\n' + err ) );
+
+		};
+
+	}
+
+	// Append the script at the end of <head>
+	const head = document.querySelector( 'head' );
+	head.insertBefore( script, head.lastChild );
+
+}

@@ -1,3 +1,39 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5292b4fb38f4e609bf20cd98b3e5c039dbd7271d1c9174302305fbaaf42035cc
-size 1457
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./source-sans-pro-regular.eot');
+    src: url('./source-sans-pro-regular.eot?#iefix') format('embedded-opentype'),
+         url('./source-sans-pro-regular.woff') format('woff'),
+         url('./source-sans-pro-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./source-sans-pro-italic.eot');
+    src: url('./source-sans-pro-italic.eot?#iefix') format('embedded-opentype'),
+         url('./source-sans-pro-italic.woff') format('woff'),
+         url('./source-sans-pro-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./source-sans-pro-semibold.eot');
+    src: url('./source-sans-pro-semibold.eot?#iefix') format('embedded-opentype'),
+         url('./source-sans-pro-semibold.woff') format('woff'),
+         url('./source-sans-pro-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./source-sans-pro-semibolditalic.eot');
+    src: url('./source-sans-pro-semibolditalic.eot?#iefix') format('embedded-opentype'),
+         url('./source-sans-pro-semibolditalic.woff') format('woff'),
+         url('./source-sans-pro-semibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
