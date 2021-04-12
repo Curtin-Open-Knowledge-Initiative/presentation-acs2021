@@ -23,11 +23,22 @@
                 </div>
                 <div class="rightside">
                     <ul>
-                        <li>Code and data on Github</li>
-                        <li>Presentation on Github</li>
-                        <li>Code and presentation at Zenodo</li>
-                        <li>DOI: <a href="https://doi.org/blablah">DOI Goes here</a></li>
+                        <li>Code and data on Github: <a href="https://github.
+com/Curtin-Open-Knowledge-Initiative/presentation-acs2021/">https://github.
+com/Curtin-Open-Knowledge-Initiative/presentation-acs2021/</a></li>
+                        <li>Presentation on Github: <a href="https://curtin-open-knowledge-initiative.github.
+io/presentation-acs2021/">https://curtin-open-knowledge-initiative.github.io/presentation-acs2021/</a></li>
+                        <li>Code and presentation at Zenodo: Coming soon...</li>
+                        <li>DOI: Coming soon...</a></li>
                     </ul>
+                    <p>
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+                        <br />
+                        Copyright Cameron Neylon 2020-2021. This slide deck is licensed under a 
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+                    Code is available under an Apache v2.0 license at Github. 
+                    </p>
                 </div>
             </section>
         </section>
@@ -126,7 +137,28 @@
                     </ul>
                 </div>
             </section>
-        </section>
+            <section class="twocolumn" data-background="static_assets/background-general.png">
+                <div class="leftside">
+                    <h1>Open Access Categories</h1>
+                </div>
+                <div class="rightside">
+                    <p>Levels of open access publishing are as provided by Unpaywall for all outputs with RSC and 
+ACS as publisher in Crossref metadata. In the Observatory Platform terminology this is "gold" open access and includes
+all articles published in either fully open access (as defined by indexing in DOAJ) and in mixed journals (i.e. 
+"hybrid")</p>
+                    <p>As defined in the SQL used to generate these categories.</p> 
+                    <p>Gold Open Access:</p>
+                    <p>gold OA is defined as either the journal being in DOAJ or the best_oa_location being a 
+publisher and a license being detected. This works because Unpaywall will set the publisher as the best oa location if
+it identifies an accessible publisher copy.</p>
+                    <pre><code>
+  CASE
+    WHEN journal_is_in_doaj OR (best_oa_location.host_type = "publisher" AND best_oa_location.license is not null AND not journal_is_in_doaj) THEN TRUE
+    ELSE FALSE
+  END
+    as gold,</code></pre>
+                </div>
+            </section>
         </section>
         <section class="twocolumn" data-background="static_assets/background-general.png">
             <div class="leftside">
@@ -145,12 +177,12 @@ com/embed/reporting/0b057fb6-5e07-4643-92b5-6a25138fce6d/page/Bq6OB" frameborder
             <h2>What can we tell about policy<br> and culture change?</h2>
         </section>
         <section class="twocolumn" data-background="static_assets/background-general.png">
-            <div class="leftside">
-                <h1>Publisher choice in UK</h1>
-            </div>
-            <div class="rightside">
-                <iframe data-src="precipy/gbr_overtime.html"></iframe>
-            </div>
+                <div class="leftside">
+                    <h1>Publisher choice in UK</h1>
+                </div>
+                <div class="rightside">
+                    <iframe data-src="precipy/gbr_overtime.html"></iframe>
+                </div>
         </section>
         <section class="twocolumn" 
                  data-background="static_assets/background-general.png"
@@ -171,12 +203,12 @@ com/embed/reporting/0b057fb6-5e07-4643-92b5-6a25138fce6d/page/Bq6OB" frameborder
             </div>
         </section>
         <section class="twocolumn" data-background="static_assets/background-general.png">
-            <div class="leftside">
-                <h1>Different patterns with publisher OA?</h1>
-            </div>
-            <div class="rightside">
-                <iframe data-src="precipy/gbrusa_pc_gold_overtime.html"></iframe>
-            </div>
+                <div class="leftside">
+                    <h1>Different patterns with OA publishing levels?</h1>
+                </div>
+                <div class="rightside">
+                    <iframe data-src="precipy/gbrusa_pc_gold_overtime.html"></iframe>
+                </div>
         </section>
         <section class="twocolumn" data-background="static_assets/background-general.png">
             <div class="leftside">
@@ -224,8 +256,12 @@ com/embed/reporting/0b057fb6-5e07-4643-92b5-6a25138fce6d/page/Bq6OB" frameborder
                         and quite specific patterns. There are differential policy effects</p>
                     </li>
                     <li>
-                        <p>Despite national polices for publisher-mediated (gold) open access, these have largely 
-                        driven uptake of repository-mediated open access (green) in those countries</p>
+                        <p>Recent changes are strongly driven by read and publish agreements with substantial
+                        shifts in publisher choice corresponding to introduction of deals.</p>
+                    </li>
+                    <li>
+                        <p>There is evidence of concentration of publishing in chemistry with two large 
+                        publishers taking up an increasing percentage. Should we be concerned about diversity?</p>
                     </li>
                 </ul>
             </div>
@@ -283,6 +319,94 @@ com/embed/reporting/0b057fb6-5e07-4643-92b5-6a25138fce6d/page/Bq6OB" frameborder
                         <li>Rebecca Meyerson</li>
                     </ul>
                 </div>
+            </div>
+        </section>
+        <section class="sectiondivider" data-background="static_assets/background-section.png">
+            <h1> </h1>
+            <h2>@COKIProject - @cameronneylon</h2>
+            <h2>http://openknowledge.community
+                <ul>
+                    <li>Subscribe to the COKI Newsletter</li>
+                    <li>View the public dashboards</li>
+                </ul>
+            </h2>
+        </section>
+        <section class="sectiondivider" data-background="static_assets/background-section.png">
+            <h1>Notes and further information</h1>
+        </section>
+        <section class="twocolumn" data-background="static_assets/background-general.png">
+            <div class="leftside">
+                <h1>Notes</h1>
+            </div>
+            <div class="rightside">
+                <p>Publisher percentage of chemistry is calculated based on the total count of publications
+                assigned in Microsoft Academic to the Level 0 field of "chemistry" as the denominator with the
+                total count of publications in Crossref where the publisher name field corresponds to the most
+                common variant of the publisher name (<em>Royal Society of Chemistry (RSC)</em> and 
+                <em>American Chemical Society (ACS)</em> respectively).</p>
+                <p>Strictly these are not percentages and could in theory go to greater than 100%. They are
+                also sensitive in magnitude to changes in the Microsoft field assignment. However it is a like
+                for like comparison across the two publishers.</p>
+                <p>An analysis by journal would also be interesting but currently the metadata for journal
+                identification is less reliable with journal names and choice of ISSN provided in Crossref
+                metadata changing from year to year for both publishers. Future analysis deploying ISSN-L
+                could address this.</p>
+            </div>
+        </section>
+        <section class="twocolumn" data-background="static_assets/background-general.png">
+            <div class="leftside">
+                <h1>Publisher Count by year</h1>
+            </div>
+            <div class="rightside">
+                <iframe data-src="precipy/countries_count_overtime.html"></iframe>
+            </div>
+        </section>
+        <section class="twocolumn" data-background="static_assets/background-general.png">
+            <div class="leftside">
+                <h1>Publisher % Green by year</h1>
+            </div>
+            <div class="rightside">
+                <iframe data-src="precipy/countries_pc_green_overtime.html"></iframe>
+            </div>
+        </section>
+        <section class="twocolumn" data-background="static_assets/background-general.png">
+            <div class="leftside">
+                <h1>Chemistry Count by year</h1>
+            </div>
+            <div class="rightside">
+                <iframe data-src="precipy/countries_count_chem_overtime.html"></iframe>
+            </div>
+        </section>
+        <section class="twocolumn" data-background="static_assets/background-general.png">
+            <div class="leftside">
+                <h1>Publishers % of Materials Field</h1>
+            </div>
+            <div class="rightside">
+                <iframe data-src="precipy/countries_materials_overtime.html"></iframe>
+            </div>
+        </section>
+        <section class="twocolumn" data-background="static_assets/background-general.png">
+            <div class="leftside">
+                <h1>Publishers % of Biology Field</h1>
+            </div>
+            <div class="rightside">
+                <iframe data-src="precipy/countries_materials_overtime.html"></iframe>
+            </div>
+        </section>
+        <section class="twocolumn" data-background="static_assets/background-general.png">
+            <div class="leftside">
+                <h1>Publisher percent of Materials Science by institution</h1>
+            </div>
+            <div class="rightside">
+                <iframe data-src="precipy/institutions_scatter_pc_materials.html"></iframe>
+            </div>
+        </section>
+        <section class="twocolumn" data-background="static_assets/background-general.png">
+            <div class="leftside">
+                <h1>Publisher percent of Biology by institution</h1>
+            </div>
+            <div class="rightside">
+                <iframe data-src="precipy/institutions_scatter_pc_biology.html"></iframe>
             </div>
         </section>
     </div>
