@@ -354,6 +354,21 @@ def pres_figures(af):
                      )
     write_plotly_div(af, f, 'gbr_overtime_arrows.html')
 
+    # GBR count of chemistry over time
+    f = px.line(figdata[figdata.country_code == 'GBR'],
+                x='published_year',
+                y='count_chemistry',
+                color='publisher',
+                color_discrete_map=palette,
+                #range_y=(0, 15),
+                labels=dict(published_year='Year of Publication',
+                            count_chemistry='# of Chemistry outputs by year',
+                            name='Country',
+                            publisher='Publisher')
+                )
+
+    write_plotly_div(af, f, 'gbr_count_chem_overtime.html')
+
     # UK and USA percent of chemistry
     f = px.line(figdata[figdata.country_code.isin(['GBR', 'USA'])],
                 x='published_year',
@@ -389,8 +404,8 @@ def pres_figures(af):
     f.update_yaxes(title_text="", row=3, col=1)
     write_plotly_div(af, f, 'countries_overtime.html')
 
-    # UK and US count of articles for each publisher
-    f = px.line(figdata[figdata.country_code.isin(['GBR', 'USA'])],
+    # Three countries count of articles for each publisher
+    f = px.line(figdata,
                 x='published_year',
                 y='count',
                 color='publisher',
@@ -403,8 +418,60 @@ def pres_figures(af):
                             publisher='Publisher')
                 )
     f.for_each_annotation(lambda a: a.update(text=a.text.replace("Country=", "")))
-    f.update_yaxes(title_text="", row=2, col=1)
-    write_plotly_div(af, f, 'gbrusa_count_overtime.html')
+    f.update_yaxes(title_text='', row=1, col=1)
+    f.update_yaxes(title_text='', row=3, col=1)
+    write_plotly_div(af, f, 'countries_count_overtime.html')
+
+    # Count of chemistry by country
+    f = px.line(figdata,
+                x='published_year',
+                y='count_chemistry',
+                facet_row='name',
+                # range_y=(0, 30),
+                labels=dict(published_year='Year of Publication',
+                            count_chemistry='# of Chemistry Outputs',
+                            name='Country')
+                )
+    f.for_each_annotation(lambda a: a.update(text=a.text.replace("Country=", "")))
+    f.update_yaxes(title_text='', row=1, col=1)
+    f.update_yaxes(title_text='', row=3, col=1)
+    write_plotly_div(af, f, 'countries_count_chem_overtime.html')
+
+    # US, GBR and NLD percent of materials
+    f = px.line(figdata,
+                x='published_year',
+                y='pc_of_materials_count',
+                color='publisher',
+                color_discrete_map=palette,
+                facet_row='name',
+                range_y=(0, 15),
+                labels=dict(published_year='Year of Publication',
+                            pc_of_materials_count='Publisher % of Materials',
+                            name='Country',
+                            publisher='Publisher')
+                )
+    f.for_each_annotation(lambda a: a.update(text=a.text.replace("Country=", "")))
+    f.update_yaxes(title_text="", row=1, col=1)
+    f.update_yaxes(title_text="", row=3, col=1)
+    write_plotly_div(af, f, 'countries_materials_overtime.html')
+
+    # US, GBR and NLD percent of biology
+    f = px.line(figdata,
+                x='published_year',
+                y='pc_of_biology_count',
+                color='publisher',
+                color_discrete_map=palette,
+                facet_row='name',
+                #range_y=(0, 15),
+                labels=dict(published_year='Year of Publication',
+                            pc_of_biology_count='Publisher % of Biology',
+                            name='Country',
+                            publisher='Publisher')
+                )
+    f.for_each_annotation(lambda a: a.update(text=a.text.replace("Country=", "")))
+    f.update_yaxes(title_text="", row=1, col=1)
+    f.update_yaxes(title_text="", row=3, col=1)
+    write_plotly_div(af, f, 'countries_biology_overtime.html')
 
     # Percent Gold for each publisher by country
     f = px.line(figdata[figdata.country_code.isin(['GBR', 'USA'])],
@@ -465,6 +532,54 @@ def pres_figures(af):
                                published_year='Year of Publication'))
     f.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 700
     write_plotly_div(af, f, 'institutions_scatter_pc_chemistry.html')
+
+    # Percent of materials outputs with each publisher by institution
+    scatter_data = institutions_data[
+        (institutions_data.publisher.isin(['Royal Society of Chemistry (RSC)', 'American Chemical Society (ACS)'])) &
+        (institutions_data.published_year.isin(range(2010, 2021))) &
+        (institutions_data.count_materials > 50)]
+    p = scatter_data.pivot_table(index=['id', 'name', 'country_code', 'country', 'published_year', 'count_materials'],
+                                 columns='publisher',
+                                 values='pc_of_materials_count')
+    p.reset_index(inplace=True)
+    p.sort_values(['published_year', 'id'], inplace=True)
+    f = px.scatter(p,
+                   x='Royal Society of Chemistry (RSC)',
+                   y='American Chemical Society (ACS)',
+                   color='country', color_discrete_map=palette,
+                   size='count_materials',
+                   animation_frame='published_year',
+                   animation_group='id',
+                   hover_name='name',
+                   range_x=(0, 50), range_y=(0, 50),
+                   labels=dict(country='Country',
+                               published_year='Year of Publication'))
+    f.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 700
+    write_plotly_div(af, f, 'institutions_scatter_pc_materials.html')
+
+    # Percent of biology outputs with each publisher by institution
+    scatter_data = institutions_data[
+        (institutions_data.publisher.isin(['Royal Society of Chemistry (RSC)', 'American Chemical Society (ACS)'])) &
+        (institutions_data.published_year.isin(range(2010, 2021))) &
+        (institutions_data.count_materials > 50)]
+    p = scatter_data.pivot_table(index=['id', 'name', 'country_code', 'country', 'published_year', 'count_biology'],
+                                 columns='publisher',
+                                 values='pc_of_biology_count')
+    p.reset_index(inplace=True)
+    p.sort_values(['published_year', 'id'], inplace=True)
+    f = px.scatter(p,
+                   x='Royal Society of Chemistry (RSC)',
+                   y='American Chemical Society (ACS)',
+                   color='country', color_discrete_map=palette,
+                   size='count_biology',
+                   animation_frame='published_year',
+                   animation_group='id',
+                   hover_name='name',
+                   range_x=(0, 50), range_y=(0, 50),
+                   labels=dict(country='Country',
+                               published_year='Year of Publication'))
+    f.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 700
+    write_plotly_div(af, f, 'institutions_scatter_pc_biology.html')
 
     # Percent of chemistry published gold with each publisher by institution
     p = scatter_data.pivot_table(index=['id', 'name', 'country_code', 'country', 'published_year',
