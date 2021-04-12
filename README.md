@@ -2,6 +2,8 @@
 
 ## Code, slides and data for a presentation to the ACS 2021 Spring Meeting
 
+[![DOI](https://zenodo.org/badge/356842271.svg)](https://zenodo.org/badge/latestdoi/356842271)
+
 ## Abstract
 
 Open Access is now the dominant mode of scholarly communications, but not in chemistry. The American Chemical 

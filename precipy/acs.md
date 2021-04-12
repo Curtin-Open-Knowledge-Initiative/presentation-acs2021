@@ -28,8 +28,8 @@ com/Curtin-Open-Knowledge-Initiative/presentation-acs2021/">https://github.
 com/Curtin-Open-Knowledge-Initiative/presentation-acs2021/</a></li>
                         <li>Presentation on Github: <a href="https://curtin-open-knowledge-initiative.github.
 io/presentation-acs2021/">https://curtin-open-knowledge-initiative.github.io/presentation-acs2021/</a></li>
-                        <li>Code and presentation at Zenodo: Coming soon...</li>
-                        <li>DOI: Coming soon...</a></li>
+                        <li>Code and presentation at Zenodo: <a href="https://doi.org/10.5281/zenodo.4680986"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4680986.svg" alt="DOI"></a></li>
+                        <li>DOI: <a href="https://doi.org/10.5281/zenodo.4680985">10.5281/zenodo.4680985</a></li>
                     </ul>
                     <p>
                     <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
